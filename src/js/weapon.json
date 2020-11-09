@@ -1,0 +1,172 @@
+{
+    "weaponOptions":
+    {
+        "firingMechanism": [
+        {
+            "type": "tension",
+            "mod": "",
+            "tags": ["silent"],
+            "range": "30/60"
+        },
+        {
+            "type": "pneumatic",
+            "mod": "1",
+            "tags": ["silent", "volatile"],
+            "range": "30/90"
+        },
+        {
+            "type": "mechanical",
+            "mod": "2",
+            "tags": ["loud"],
+            "range": "30/90"
+        },
+        {
+            "type": "explosive",
+            "mod": "double",
+            "tags": ["loud", "volatile"],
+            "range": "60/120"
+        }],
+        "reloadingMechanism": [
+        {
+            "type": "crank",
+            "tags": ["slow"]
+        },
+        {
+            "type": "pump",
+            "tags": ["fast"]
+        },
+        {
+            "type": "pack",
+            "tags": ["very slow", "jam-free"]
+        },
+        {
+            "type": "manual",
+            "tags": ["slow"]
+        },
+        {
+            "type": "hopper",
+            "tags": ["fast", "jam-prone"]
+        },
+        {
+            "type": "cylinder",
+            "tags": ["slow", "jam-free"]
+        },
+        {
+            "type": "semi-auto",
+            "tags": ["fast", "volatile", "jam-prone"]
+        },
+        {
+            "type": "auto",
+            "tags": ["fast", "burst", "volatile", "jam-prone"]
+        }],
+        "ammunition": [
+        {
+            "ammoType": "scrap shot",
+            "damageType": "piercing",
+            "damage": "1d4",
+            "tags": []
+        },
+        {
+            "ammoType": "wood bolts",
+            "damageType": "piercing",
+            "damage": "1d6",
+            "tags": []
+        },
+        {
+            "ammoType": "metal bolts",
+            "damageType": "piercing",
+            "damage": "1d8",
+            "tags": []
+        },
+        {
+            "ammoType": "metal slugs",
+            "damageType": "ballistic",
+            "damage": "1d8",
+            "tags": []
+        },
+        {
+            "ammoType": "heavy shot",
+            "damageType": "ballistic",
+            "damage": "1d10",
+            "tags": []
+        },
+        {
+            "ammoType": "explosive",
+            "damageType": "concussion",
+            "damage": "1d12",
+            "tags": ["area", "loud", "volatile"]
+        }],
+        "quirk": [
+        {
+            "type": "none",
+            "effect": "this gun is in as great shape as one could expect given the circumstances."
+        },
+        {
+            "type": "hair trigger",
+            "effect": "jumpy. on a Nat 20, immediately roll a second attack against the same target."
+        },
+        {
+            "type": "fragile",
+            "effect": "might break if you look at it wrong. on a Nat 1, takes 4 notches of damage."
+        },
+        {
+            "type": "inaccurate",
+            "effect": "crooked barrel, off-center sights, something's fucky. -1 to hit."
+        },
+        {
+            "type": "broken by design",
+            "effect": "piece of junk. damage is reduced and can't have fewer than 3 notches of damage."
+        },
+        {
+            "type": "hungry",
+            "effect": "fires one round and one dud per attack. roll ammunition die twice."
+        },
+        {
+            "type": "leaky",
+            "effect": "tanks or strings lose pressure or tension. on a Nat 1, use an action to pump or tighten."
+        },
+        {
+            "type": "imposing",
+            "effect": "intimidation checks while wielding this weapon have advantage."
+        },
+        {
+            "type": "well made",
+            "effect": "whoever made this knew what they were doing. no notches of damage from a Nat 1."
+        },
+        {
+            "type": "old fashioned fix",
+            "effect": "the problem takes care of itself. repair one notch of damage on a Nat 20."
+        },
+        {
+            "type": "heavier than sin",
+            "effect": "has some weight to it. can be used as an improvised melee weapon (1d6 bludgeoning)."
+        },
+        {
+            "type": "nasty recoil",
+            "effect": "on a Nat 1 or 20, make a DC10 Dex Save or the gun flies out of your hand and 10 feet behind you."
+        }],
+        "size": [
+        {
+            "size": "tiny",
+            "slots": 1,
+            "tags": ["volatile"]
+        },
+        {
+            "size": "small",
+            "slots": 2,
+            "tags": [""]
+        },
+        {
+            "size": "large",
+            "slots": 3,
+            "tags": [""],
+            "range": "60/120"
+        },
+        {
+            "size": "huge",
+            "slots": 5,
+            "tags": ["slow"],
+            "range": "60/120"
+        }]
+    }
+}
